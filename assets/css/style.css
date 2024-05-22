@@ -24,7 +24,7 @@
 
     --black-color: #000000;
     --white-color: #ffff;
-    --img-bg-color: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 97.77%);
+    --light-grey: #A0A0A0;
 
     --fs-10: 10px;
     --fs-14: 14px;
@@ -343,6 +343,9 @@
     cursor: pointer;
 }
 
+.light-grey {
+    color: var(--light-grey);
+}
 
 /*================= header =====================*/
 .header_bg_img {
@@ -492,6 +495,17 @@
     box-shadow: 0px 4px 23px 0px #0000000D;
 }
 
+/*================== footer ==============*/
+.media_app {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #FFFFFF26;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*============ animation ===========*/
 @keyframes preloader {
     0% {
@@ -559,6 +573,24 @@
 
 }
 
+@media (min-width:576px) {
+    .pt_sm_70 {
+        padding-top: 70px !important;
+    }
+
+    .pb_sm_70 {
+        padding-bottom: 70px !important;
+    }
+
+    .pt-sm-40 {
+        padding-top: 40px;
+    }
+
+    .pb-sm-40 {
+        padding-bottom: 40px;
+    }
+}
+
 @media (min-width:992px) {
     .gap-lg-126 {
         gap: 126px !important;
@@ -595,25 +627,13 @@
     .pb_lg_82 {
         padding-bottom: 82px !important;
     }
-}
 
-@media (min-width:576px) {
-    .pt_sm_70 {
-        padding-top: 70px !important;
-    }
-
-    .pb_sm_70 {
-        padding-bottom: 70px !important;
-    }
-
-    .pt-sm-40 {
-        padding-top: 40px;
-    }
-
-    .pb-sm-40 {
-        padding-bottom: 40px;
+    .max-lg-w-388 {
+        max-width: 388px;
     }
 }
+
+
 
 @media (min-width:768px) {
     .fs-md-40 {
