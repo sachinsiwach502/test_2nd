@@ -455,6 +455,20 @@
     outline-color: none;
 }
 
+.mail_btn_border {
+    max-width: 100%;
+    min-height: 53px;
+    border-radius: 100px;
+    background-color: var(--white-color);
+    padding: 5px 6px 5px 16px;
+}
+
+.downloadBtn {
+    background: #E67E22;
+    padding: 8px 19px 8px 19px;
+    border-radius: 106px;
+    border: none;
+}
 
 /*============ animation ===========*/
 @keyframes preloader {
