@@ -423,6 +423,22 @@
     padding-top: 10px;
 }
 
+/*================ about us  ================*/
+.bg-light-color {
+    background: #FFF7EF;
+
+}
+
+.about_us_btn {
+    border: 1px solid transparent;
+    padding: 13px 26px 13px 26px;
+    background: #E67E22;
+    border-radius: 106px;
+}
+
+.mt_32 {
+    margin-top: 32px;
+}
 
 /*============ animation ===========*/
 @keyframes preloader {
@@ -502,6 +518,14 @@
 
     .pb_lg_150 {
         padding-bottom: 150px !important;
+    }
+
+    .pt-lg-62 {
+        padding-top: 62px !important;
+    }
+
+    .pb-lg-62 {
+        padding-bottom: 62px !important;
     }
 }
 
