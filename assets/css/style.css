@@ -399,6 +399,31 @@
     animation: preloader 3s infinite;
 }
 
+/*==================== why choise us ================*/
+
+.choose_us {
+    letter-spacing: 34%;
+    position: relative;
+}
+
+.black-line {
+    width: 22px;
+    height: 2px;
+    background-color: var(--black-color);
+}
+
+.content_border {
+    border: 1px solid #0000001A;
+    border-radius: 10px;
+    padding: 12px;
+    min-height: 100%;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+
 /*============ animation ===========*/
 @keyframes preloader {
     0% {
@@ -465,8 +490,37 @@
 
 
 }
+
 @media (min-width:992px) {
-    .gap-lg-126{
+    .gap-lg-126 {
         gap: 126px !important;
+    }
+
+    .pt_lg_141 {
+        padding-top: 141px !important;
+    }
+
+    .pb_lg_150 {
+        padding-bottom: 150px !important;
+    }
+}
+
+@media (min-width:576px) {
+    .pt_sm_70 {
+        padding-top: 70px !important;
+    }
+
+    .pb_sm_70 {
+        padding-bottom: 70px !important;
+    }
+}
+
+@media (min-width:768px) {
+    .fs-md-40 {
+        font-style: var(--fs-40);
+    }
+
+    .lh-md-49 {
+        line-height: var(--lh-49);
     }
 }
