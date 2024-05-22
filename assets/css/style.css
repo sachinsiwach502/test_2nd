@@ -440,6 +440,22 @@
     margin-top: 32px;
 }
 
+/*=============== best exprecience ===================*/
+.w-h-61 {
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    background-color: var(--white-color);
+    transform: translate(-50%, -50%);
+}
+
+/*================== in book experiance====================== */
+.mail-input {
+    border: none;
+    outline-color: none;
+}
+
+
 /*============ animation ===========*/
 @keyframes preloader {
     0% {
@@ -527,6 +543,14 @@
     .pb-lg-62 {
         padding-bottom: 62px !important;
     }
+
+    .pt-lg-72 {
+        padding-top: 72px;
+    }
+
+    .pb-lg-72 {
+        padding-bottom: 72px;
+    }
 }
 
 @media (min-width:576px) {
@@ -536,6 +560,14 @@
 
     .pb_sm_70 {
         padding-bottom: 70px !important;
+    }
+
+    .pt-sm-40 {
+        padding-top: 40px;
+    }
+
+    .pb-sm-40 {
+        padding-bottom: 40px;
     }
 }
 
