@@ -58,22 +58,22 @@ navLinks.forEach(links => {
 
 // // scroll to top-----------------
 
-// let scroll_top = document.querySelector(".scroll_to_top");
-// let scrol_pt = 200;
-// scroll_top.style.display = "none";
-// window.addEventListener("scroll", () => {
-//     if (window.scrollY > scrol_pt) {
-//         scroll_top.style.display = "block"
-//     } else {
-//         scroll_top.style.display = "none";
-//     }
-// });
+let scroll_top = document.querySelector(".scroll_to_top");
+let scrol_pt = 200;
+scroll_top.style.display = "none";
+window.addEventListener("scroll", () => {
+    if (window.scrollY > scrol_pt) {
+        scroll_top.style.display = "block"
+    } else {
+        scroll_top.style.display = "none";
+    }
+});
 
-// scroll_top.addEventListener("click", () => {
-//     window.scrollTo({
-//         top: 0, behaviour: "smooth",
-//     })
-// });
+scroll_top.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0, behaviour: "smooth",
+    })
+});
 
 // services slick slider================
 $('.slider_1').slick({
@@ -93,6 +93,8 @@ $('.slider_1').slick({
                 infinite: true,
                 autoplay: true,
                 autoplaySpeed: 2000,
+                nextArrow: false,
+                prevArrow: false,
                 dots: true
             }
         },
@@ -137,6 +139,8 @@ $('.reviews_slider_itm').slick({
                 infinite: true,
                 autoplay: true,
                 autoplaySpeed: 2000,
+                nextArrow: false,
+                prevArrow: false,
                 dots: true
             }
         },
@@ -178,7 +182,9 @@ $('.news_slider').slick({
                 infinite: true,
                 autoplay: true,
                 autoplaySpeed: 2000,
-                dots: true
+                dots: true,
+                nextArrow: false,
+                prevArrow: false
             }
         },
         {
@@ -218,6 +224,8 @@ $('.client_slider').slick({
                 autoplay: true,
                 autoplaySpeed: 2000,
                 slidesToShow: 4,
+                nextArrow: false,
+                prevArrow: false,
                 slidesToScroll: 1,
                 infinite: true,
                 dots: true
@@ -262,6 +270,8 @@ $('.portflio_slider').slick({
                 autoplay: true,
                 autoplaySpeed: 2000,
                 infinite: true,
+                nextArrow: false,
+                prevArrow: false,
                 dots: true
             }
         },

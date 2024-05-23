@@ -19,12 +19,12 @@
 
 <body>
     <!--================== preloader ==================-->
-    <!-- <div class="preloader d-flex align-items-center justify-content-center w-100 h-100">
+    <div class="preloader d-flex align-items-center justify-content-center w-100 h-100">
         <div class="position-absolute cv_txt d-flex justify-content-center align-items-center flex-column">
-            <div class="preloader_logo"> <img src="./assets/img/png/bandar_image.png" alt="nav-icon"></div>
-            <h1 class=" fs-70 text-black ff-p txt-shdow text-white text-center fs-lh-30-54">Chimpz Homepage</h1>
+            <div class="preloader_logo"> <img src="./assets/img/svg/nav_logo.svg" alt="nav-icon"></div>
+            <h1 class=" fs-70 text-black ff-p txt-shdow text-white text-center lh-86 fs-lh-md-30-54">Loading...</h1>
         </div>
-    </div> -->
+    </div>
 
     <header class="header_bg_img min-vh-100" id="header">
         <nav>
@@ -69,7 +69,7 @@
     </header>
     <main class="overflow-hidden">
         <!--================= why choose us  ==================-->
-        <section class="position-relative">
+        <section class="position-relative" id="home">
             <div class="header_line opacity_md_30">
                 <img src="./assets/img/png/hero_sec_ellips.png" alt="line" class="w-100">
             </div>
@@ -129,7 +129,7 @@
         </section>
 
         <!--================== about us ================-->
-        <section class="bg-light-color position-relative">
+        <section class="bg-light-color position-relative" id="about">
             <div class="about_us_line_ellips">
                 <img src="./assets/img/png/about_us_line_ellips.png" alt="line ellips" class="w-100">
             </div>
@@ -197,9 +197,10 @@
                 </h1>
 
                 <div class="slider_1 pt-lg-5 pt-4">
-                    <div class="row align-items-center services_slider_itm flex-row d-flex">
+                    <div class="row align-items-center services_slider_itm  d-flex">
                         <div class="col-lg-6">
-                            <span><img src="./assets/img/png/slider_01_img.png" alt="number count"></span>
+                            <span class="d-flex align-items-center justify-content-center d-lg-block"><img
+                                    src="./assets/img/png/slider_01_img.png" alt="number count"></span>
                             <h1 class="ff-h fw-7  fs-lg-32 lh-lg-39 mb-0 lh-30 fs-25 text-lg-start text-center">Video
                                 Production</h1>
                             <p class="mb-0 pt-3 ff-p opacity-75 lh-24 fw-4 text-lg-start text-center">Capture customer
@@ -213,25 +214,11 @@
                             <img src="./assets/img/png/servies_slider_img.png" alt="services slider img" class="w-100">
                         </div>
                     </div>
-                    <div class="row align-items-center services_slider_itm flex-row d-flex">
+
+                    <div class="row align-items-center services_slider_itm  d-flex">
                         <div class="col-lg-6">
-                            <span><img src="./assets/img/png/slider_01_img.png" alt="number count"></span>
-                            <h1 class="ff-h fw-7  fs-lg-32 lh-lg-39 mb-0 lh-30 fs-25 text-lg-start text-center">Video
-                                Production</h1>
-                            <p class="mb-0 pt-3 ff-p opacity-75 lh-24 fw-4 text-lg-start text-center">Capture customer
-                                attention and serve
-                                emotionally engaging content by adding drone videos to your website and marketing
-                                materials. Promote your brand as cutting-edge, unique, and differentiated while helping
-                                your customers engage with your
-                                product in the best way possible.</p>
-                        </div>
-                        <div class="col-lg-6 mt-lg-0 m-3">
-                            <img src="./assets/img/png/servies_slider_img.png" alt="services slider img" class="w-100">
-                        </div>
-                    </div>
-                    <div class="row align-items-center services_slider_itm flex-row d-flex">
-                        <div class="col-lg-6">
-                            <span><img src="./assets/img/png/slider_01_img.png" alt="number count"></span>
+                            <span class="d-flex align-items-center justify-content-center d-lg-block"><img
+                                    src="./assets/img/png/slider_01_img.png" alt="number count"></span>
                             <h1 class="ff-h fw-7  fs-lg-32 lh-lg-39 mb-0 lh-30 fs-25 text-lg-start text-center">Video
                                 Production</h1>
                             <p class="mb-0 pt-3 ff-p opacity-75 lh-24 fw-4 text-lg-start text-center">Capture customer
@@ -268,7 +255,7 @@
         </section>
 
         <!--===================== best experience ================-->
-        <section class="bg-black pt-lg-72 pb-lg-72 pt-sm-40 pb-sm-40 position-relative">
+        <section class="bg-black pt-lg-72 pb-lg-72 pt-sm-40 pb-sm-40 position-relative" id="help">
             <div class="best_exp_dots">
                 <img src="./assets/img/png/best_experience_dot_ellips.png" alt="ellips" class="w-100">
             </div>
@@ -322,41 +309,57 @@
                 <div class="news_slider pt_34">
                     <div class="news_slider_card">
                         <span><img src="./assets/img/png/news_slider_1.png" alt="stadium" class="w-100"></span>
-                        <p class="ff-p fw-5 fs-16 lh-20 opacity-75 mb-0 pt-3">Jan 04, 2023</p>
-                        <h4 class="fw-5 fs-20 ff-p lh-30 pt-2 mb-0">Drones in Live Sports Broadcasting</h4>
-                        <p class="ff-p fs-16 fw-4 opacity-75 lh-24">The Rangers took home their first World Series win
+                        <p class="ff-p fw-5 fs-16 lh-20 opacity-75 mb-0 pt-3 text-center text-lg-start">Jan 04, 2023</p>
+                        <h4 class="fw-5 fs-20 ff-p lh-30 pt-2 mb-0 text-center text-lg-start">Drones in Live Sports
+                            Broadcasting</h4>
+                        <p class="ff-p fs-16 fw-4 opacity-75 lh-24 text-center text-lg-start">The Rangers took home
+                            their first World Series win
                             on Nov
                             1, but we have a different top story from the five game...
                         </p>
-                        <a href="#" class="fw-5 fs-18 ff-p lh-23 orange_color pt-4">Read more</a>
+                        <div class="d-flex align-items-center justify-content-center d-lg-block"> <a href="#"
+                                class="fw-5 fs-18 ff-p lh-23 orange_color pt-4">Read
+                                more</a></div>
                     </div>
                     <div class="news_slider_card">
                         <span><img src="./assets/img/png/news_slider_2.png" alt="stadium" class="w-100"></span>
-                        <p class="ff-p fw-5 fs-16 lh-20 opacity-75 mb-0 pt-3">Aug 09, 2023</p>
-                        <h4 class="fw-5 fs-20 ff-p lh-30 pt-2 mb-0">FPV Drones in Cinema (so far...)</h4>
-                        <p class="ff-p fs-16 fw-4 opacity-75 lh-24">As a massive horror movie fan, I love the direction
+                        <p class="ff-p fw-5 fs-16 lh-20 opacity-75 mb-0 pt-3 text-center text-lg-start">Aug 09, 2023</p>
+                        <h4 class="fw-5 fs-20 ff-p lh-30 pt-2 mb-0 text-center text-lg-start">FPV Drones in Cinema (so
+                            far...)</h4>
+                        <p class="ff-p fs-16 fw-4 opacity-75 lh-24 text-center text-lg-start">As a massive horror movie
+                            fan, I love the direction
                             that high-horror directors such as Ari Aster...
                         </p>
-                        <a href="#" class="fw-5 fs-18 ff-p lh-23 orange_color pt-4">Read more</a>
+                        <div class="d-flex align-items-center justify-content-center d-lg-block"> <a href="#"
+                                class="fw-5 fs-18 ff-p lh-23 orange_color pt-4 ">Read
+                                more</a> </div>
                     </div>
                     <div class="news_slider_card">
                         <span><img src="./assets/img/png/news_slider_1.png" alt="stadium" class="w-100"></span>
-                        <p class="ff-p fw-5 fs-16 lh-20 opacity-75 mb-0 pt-3">Jan 04, 2023</p>
-                        <h4 class="fw-5 fs-20 ff-p lh-30 pt-2 mb-0">Drones in Live Sports Broadcasting</h4>
-                        <p class="ff-p fs-16 fw-4 opacity-75 lh-24">The Rangers took home their first World Series win
+                        <p class="ff-p fw-5 fs-16 lh-20 opacity-75 mb-0 pt-3 text-center text-lg-start">Jan 04, 2023</p>
+                        <h4 class="fw-5 fs-20 ff-p lh-30 pt-2 mb-0 text-center text-lg-start">Drones in Live Sports
+                            Broadcasting</h4>
+                        <p class="ff-p fs-16 fw-4 opacity-75 lh-24 text-center text-lg-start">The Rangers took home
+                            their first World Series win
                             on Nov
                             1, but we have a different top story from the five game...
                         </p>
-                        <a href="#" class="fw-5 fs-18 ff-p lh-23 orange_color pt-4">Read more</a>
+                        <div class="d-flex align-items-center justify-content-center d-lg-block"> <a href="#"
+                                class="fw-5 fs-18 ff-p lh-23 orange_color pt-4 ">Read
+                                more</a></div>
                     </div>
                     <div class="news_slider_card">
                         <span><img src="./assets/img/png/news_slider_2.png" alt="stadium" class="w-100"></span>
-                        <p class="ff-p fw-5 fs-16 lh-20 opacity-75 mb-0 pt-3">Aug 09, 2023</p>
-                        <h4 class="fw-5 fs-20 ff-p lh-30 pt-2 mb-0">FPV Drones in Cinema (so far...)</h4>
-                        <p class="ff-p fs-16 fw-4 opacity-75 lh-24">As a massive horror movie fan, I love the direction
+                        <p class="ff-p fw-5 fs-16 lh-20 opacity-75 mb-0 pt-3 text-center text-lg-start">Aug 09, 2023</p>
+                        <h4 class="fw-5 fs-20 ff-p lh-30 pt-2 mb-0 text-center text-lg-start">FPV Drones in Cinema (so
+                            far...)</h4>
+                        <p class="ff-p fs-16 fw-4 opacity-75 lh-24 text-center text-lg-start">As a massive horror movie
+                            fan, I love the direction
                             that high-horror directors such as Ari Aster...
                         </p>
-                        <a href="#" class="fw-5 fs-18 ff-p lh-23 orange_color pt-4">Read more</a>
+                        <div class="d-flex align-items-center justify-content-center d-lg-block"> <a href="#"
+                                class="fw-5 fs-18 ff-p lh-23 orange_color pt-4">Read
+                                more</a></div>
                     </div>
                 </div>
 
@@ -754,7 +757,8 @@
         </section>
 
         <!--==================== contact us =================-->
-        <section class="contact_us_bg_color pt_lg_101 pb_lg_82 pt_sm_70 pb_sm_70 pt-5 pb-5 position-relative">
+        <section class="contact_us_bg_color pt_lg_101 pb_lg_82 pt_sm_70 pb_sm_70 pt-5 pb-5 position-relative"
+            id="testimonials">
             <div class="contact_us_ellips">
                 <img src="./assets/img/png/contact_us_ellips.png" alt="ellips" class="w-100">
             </div>
@@ -903,6 +907,10 @@
         <div class="footer_underline mt-5"></div>
         <p class="text-center mb-0 ff-p fw-4 fs-16 opacity-75 text-white pt_20 pb_20">© 2024 Hartley Aerial. All Rights
             Reserved</p>
+        <!--============ scroll to top -==============-->
+        <div class="scroll_to_top">
+            <img src="./assets/img/png/scroll_to_top.png" alt="scroll_to_top" class="w-100">
+        </div>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
