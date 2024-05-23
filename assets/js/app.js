@@ -120,6 +120,9 @@ $('.reviews_slider_itm').slick({
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
+    prevArrow: '.review_prev_arrow',
+    nextArrow: '.review_next_arrow',
+    centerMode: true,
     responsive: [
         {
             breakpoint: 1024,
@@ -157,6 +160,8 @@ $('.news_slider').slick({
     speed: 300,
     slidesToShow: 2,
     slidesToScroll: 1,
+    prevArrow: '.news_prev_arrow',
+    nextArrow: '.news_next_arrow',
     responsive: [
         {
             breakpoint: 1024,
@@ -168,7 +173,7 @@ $('.news_slider').slick({
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1
@@ -194,6 +199,8 @@ $('.client_slider').slick({
     speed: 300,
     slidesToShow: 5,
     slidesToScroll: 1,
+    prevArrow: '.client_prev_arrow',
+    nextArrow: '.client_next_arrow',
     responsive: [
         {
             breakpoint: 1024,
