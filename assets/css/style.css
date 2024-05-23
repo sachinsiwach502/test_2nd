@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@font-face {
+    font-family: "Hurme Geometric Sans 1";
+    src: url("../fonts/HurmeGeometricSans1.otf");
+}
+
 /* -------------------------------unviversal selector---------------------------------------- */
 * {
     -webkit-box-sizing: border-box;
@@ -13,6 +18,7 @@
 /* ---------------------------------------------root------------------------------------------- */
 :root {
     --ff-poppins: "Poppins", sans-serif;
+    --ff-h: "Hurme Geometric Sans 1";
 
     --fw-3: 300;
     --fw-4: 400;
@@ -339,6 +345,10 @@
     font-family: var(--ff-poppins);
 }
 
+.ff-h {
+    font-family: var(--ff-h);
+}
+
 .black {
     color: var(--black-color);
 }
@@ -426,6 +436,22 @@
     background: #E67E22;
 }
 
+.letter_spacing {
+    letter-spacing: 5px;
+}
+
+.services_prev_arrow {
+    top: 50%;
+    left: 0;
+    transform: translate(-100%, 50%);
+}
+
+.services_next_arrow {
+    top: 50%;
+    right: 0;
+    transform: translate(50%, 50%);
+}
+
 /*==================== why choise us ================*/
 
 .choose_us {
@@ -454,6 +480,10 @@
 .bg-light-color {
     background: #FFF7EF;
 
+}
+
+.border_radius_106 {
+    border-radius: 106px;
 }
 
 .about_us_btn {
@@ -518,6 +548,30 @@
     transform: translate(100%, 100%);
 }
 
+.reviews_slider_itm .slick-slider {
+    margin: 0 -5px;
+}
+
+.reviews_slider_itm .slick-slide {
+    padding: 5px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.slick-dots {
+    bottom: -50px;
+}
+
+.reviews_slider_itm .slick-current>div {
+    box-shadow: 0px 1px 27.3px 0px #0000001A;
+    border: 1px solid #E67E221A;
+    border-radius: 10px;
+}
+
+.reviews_slider_itm .slick-track {
+    padding: 20px;
+}
+
 /*================== contact us ===================*/
 .contact_us_bg_color {
     background: #FFF7EF;
@@ -569,6 +623,98 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 300ms linear;
+}
+
+.footer-links {
+    transition: all 300ms linear;
+}
+
+.footer-links:hover {
+    opacity: 100% !important;
+    color: var(--light-orange-color) !important;
+}
+
+.media_app:hover {
+    transform: scale(1.1);
+    background-color: var(--light-orange-color);
+}
+
+.footer_underline {
+    border: 1px solid #FFFFFF80;
+    width: 100%;
+    height: 1px;
+    opacity: 20%;
+}
+
+.pt_20 {
+    padding-top: 20px;
+}
+
+.pb_20 {
+    padding-bottom: 20px;
+}
+
+/*============ Portfolio =====================*/
+.opa-1 {
+    opacity: 0;
+}
+
+.hover-clas:hover .opa-1 {
+    opacity: 1 !important;
+}
+
+.hover-clas:hover .portfalio_slider_img {
+    filter: blur(2px);
+}
+
+.adjust-txt {
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.over-slider {
+    z-index: 2;
+}
+
+
+.portflio_slider .slick-slider {
+    margin: 0 -15px;
+}
+
+.portflio_slider .slick-slide {
+    padding: 5px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+
+.portflio_slider .slick-list {
+    overflow: visible;
+    padding: 0 20% 0 0;
+    position: relative;
+}
+
+.portflio_slider .slick-list::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 100%;
+    background-color: white;
+}
+
+.portflio_prev_arrow {
+    top: 0;
+    right: 0;
+    transform: translate(-70px, 0px);
+}
+
+.portflio_next_arrow {
+    top: 0;
+    right: 0;
 }
 
 /*============ in the news =====================*/
@@ -834,5 +980,9 @@
 
     .lh-md-49 {
         line-height: var(--lh-49);
+    }
+
+    .opacity_md_30 {
+        opacity: 30%;
     }
 }

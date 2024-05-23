@@ -75,14 +75,15 @@ navLinks.forEach(links => {
 //     })
 // });
 
-// first slick slider================
-
+// services slick slider================
 $('.slider_1').slick({
     dots: true,
     infinite: true,
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
+    prevArrow: '.services_prev_arrow',
+    nextArrow: '.services_next_arrow',
     responsive: [
         {
             breakpoint: 1024,
@@ -123,6 +124,8 @@ $('.reviews_slider_itm').slick({
     prevArrow: '.review_prev_arrow',
     nextArrow: '.review_next_arrow',
     centerMode: true,
+    centerPadding: "20%",
+    variableWidth: true,
     responsive: [
         {
             breakpoint: 1024,
@@ -192,6 +195,7 @@ $('.news_slider').slick({
     ]
 });
 
+
 // client slider===============
 $('.client_slider').slick({
     dots: true,
@@ -212,16 +216,56 @@ $('.client_slider').slick({
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 800,
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 600,
             settings: {
                 slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+    ]
+});
+
+// portfalio slick slider====================
+$('.portflio_slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    variableWidth: true,
+    slidesToScroll: 1,
+    prevArrow: '.portflio_prev_arrow',
+    nextArrow: '.portflio_next_arrow',
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
                 slidesToScroll: 1
             }
         }
