@@ -86,11 +86,13 @@ $('.slider_1').slick({
     nextArrow: '.services_next_arrow',
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 1400,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
                 dots: true
             }
         },
@@ -128,11 +130,13 @@ $('.reviews_slider_itm').slick({
     variableWidth: true,
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 1400,
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
                 dots: true
             }
         },
@@ -167,11 +171,13 @@ $('.news_slider').slick({
     nextArrow: '.news_next_arrow',
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 1400,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1,
                 infinite: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
                 dots: true
             }
         },
@@ -207,8 +213,10 @@ $('.client_slider').slick({
     nextArrow: '.client_next_arrow',
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 1400,
             settings: {
+                autoplay: true,
+                autoplaySpeed: 2000,
                 slidesToShow: 4,
                 slidesToScroll: 1,
                 infinite: true,
@@ -247,10 +255,12 @@ $('.portflio_slider').slick({
     nextArrow: '.portflio_next_arrow',
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 1400,
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
                 infinite: true,
                 dots: true
             }
