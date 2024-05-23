@@ -21,7 +21,7 @@
     --fw-7: 700;
     --fw-8: 800;
 
-
+    --light-orange-color: #E67E22;
     --black-color: #000000;
     --white-color: #ffff;
     --light-grey: #A0A0A0;
@@ -331,6 +331,10 @@
     color: var(--white-color);
 }
 
+.orange_color {
+    color: var(--light-orange-color);
+}
+
 .ff-p {
     font-family: var(--ff-poppins);
 }
@@ -400,6 +404,26 @@
 
 .cv_txt {
     animation: preloader 3s infinite;
+}
+
+/*==================== Servics ================*/
+
+.slick-dots li button {
+    display: none;
+}
+
+.slick-dots li {
+    width: 9.07px;
+    height: 9.07px;
+    border-radius: 50%;
+    background: #E67E2226;
+}
+
+.slick-dots li.slick-active {
+    width: 9.07px;
+    height: 9.07px;
+    border-radius: 50%;
+    background: #E67E22;
 }
 
 /*==================== why choise us ================*/
@@ -473,6 +497,15 @@
     border: none;
 }
 
+/*=================== rewviews us =====================*/
+.review_slider_card {
+    border: 1px solid #0000001A;
+    max-width: 362px;
+    min-height: 100%;
+    padding: 22px;
+    border-radius: 10px;
+}
+
 /*================== contact us ===================*/
 .contact_us_bg_color {
     background: #FFF7EF;
@@ -495,6 +528,14 @@
     box-shadow: 0px 4px 23px 0px #0000000D;
 }
 
+/*==================== our client ================*/
+.compny_card {
+    border: 1px solid #0000000D;
+    max-width: 207px;
+    border-radius: 10px;
+    min-height: 111px;
+}
+
 /*================== footer ==============*/
 .media_app {
     width: 36px;
@@ -504,6 +545,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/*============ in the news =====================*/
+
+.news_slider_card {
+    border: 1px solid #0000001A;
+    background-color: var(--white-color);
+    padding: 12px 14px 20px 11px;
+    border-radius: 6px;
+    max-width: 535px;
+    min-height: 100%;
+}
+
+.pt_34 {
+    padding-top: 34px;
 }
 
 /*============ animation ===========*/
@@ -587,13 +643,21 @@
     }
 
     .pb-sm-40 {
-        padding-bottom: 40px;
+        padding-bottom: 40px !important;
+    }
+
+    .pt_sm_40 {
+        padding-top: 40px !important;
     }
 }
 
 @media (min-width:992px) {
     .gap-lg-126 {
         gap: 126px !important;
+    }
+
+    .pt-lg_76 {
+        padding-top: 76px !important;
     }
 
     .pt_lg_141 {
@@ -630,6 +694,14 @@
 
     .max-lg-w-388 {
         max-width: 388px;
+    }
+
+    .fs-lg-32 {
+        line-height: var(--lh-32);
+    }
+
+    .lh-lg-39 {
+        line-height: var(--lh-39);
     }
 }
 
