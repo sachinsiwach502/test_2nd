@@ -38,6 +38,7 @@
     --input-border: #0000000D;
     --grey-200: #FFFFFF26;
     --grey-400: #FFFFFF80;
+    --sec-bg-color:#FFF7EF;
 
     --fs-10: 10px;
     --fs-14: 14px;
@@ -398,6 +399,8 @@
     color: var(--light-orange-color) !important;
 }
 
+
+
 .bttn {
     background: var(--border-color);
     color: var(--white-color);
@@ -490,7 +493,7 @@
 
 /*================ about us  ================*/
 .bg-light-color {
-    background: var(--white-color);
+    background: var(--sec-bg-color);
 
 }
 
@@ -534,6 +537,7 @@
     outline-color: none;
 }
 
+
 .mail_btn_border {
     max-width: 100%;
     min-height: 53px;
@@ -546,7 +550,14 @@
     background: var(--light-orange-color);
     padding: 8px 19px 8px 19px;
     border-radius: 106px;
-    border: none;
+    border: 1px solid transparent;
+    transition: all 300ms linear;
+}
+
+.downloadBtn:hover {
+    border: 1px solid var(--light-orange-color);
+    background: var(--white-color);
+    color: var(--light-orange-color) !important;
 }
 
 /*=================== rewviews us =====================*/
