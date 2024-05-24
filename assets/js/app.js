@@ -102,14 +102,18 @@ $('.slider_1').slick({
             breakpoint: 600,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
             }
         },
         {
             breakpoint: 480,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
             }
         }
         // You can unslick at a given breakpoint now by adding:
@@ -148,14 +152,18 @@ $('.reviews_slider_itm').slick({
             breakpoint: 600,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
             }
         },
         {
             breakpoint: 480,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
             }
         }
         // You can unslick at a given breakpoint now by adding:
@@ -191,14 +199,18 @@ $('.news_slider').slick({
             breakpoint: 768,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
             }
         },
         {
             breakpoint: 480,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
             }
         }
         // You can unslick at a given breakpoint now by adding:
@@ -235,14 +247,18 @@ $('.client_slider').slick({
             breakpoint: 800,
             settings: {
                 slidesToShow: 3,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
             }
         },
         {
             breakpoint: 600,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
             }
         }
         // You can unslick at a given breakpoint now by adding:
@@ -279,14 +295,18 @@ $('.portflio_slider').slick({
             breakpoint: 600,
             settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
             }
         },
         {
             breakpoint: 480,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
             }
         }
         // You can unslick at a given breakpoint now by adding:
