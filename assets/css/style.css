@@ -31,6 +31,13 @@
     --black-color: #000000;
     --white-color: #ffff;
     --light-grey: #A0A0A0;
+    --border-color: #E67E221A;
+    --dots-color: #E67E2226;
+    --shdow-color: #0000001A;
+    --light-blue:#FFFFFF03;
+    --input-border:#0000000D;
+    --grey-200:#FFFFFF26;
+    --grey-400:#FFFFFF80;
 
     --fs-10: 10px;
     --fs-14: 14px;
@@ -431,14 +438,14 @@
     width: 9.07px;
     height: 9.07px;
     border-radius: 50%;
-    background: #E67E2226;
+    background: var(--dots-color);
 }
 
 .slick-dots li.slick-active {
     width: 9.07px;
     height: 9.07px;
     border-radius: 50%;
-    background: #E67E22;
+    background: var(--light-orange-color);
 }
 
 .letter_spacing {
@@ -471,7 +478,7 @@
 }
 
 .content_border {
-    border: 1px solid #0000001A;
+    border: 1px solid var(--shdow-color);
     border-radius: 10px;
     padding: 12px;
     min-height: 100%;
@@ -483,7 +490,7 @@
 
 /*================ about us  ================*/
 .bg-light-color {
-    background: #FFF7EF;
+    background: var(--white-color);
 
 }
 
@@ -494,7 +501,7 @@
 .about_us_btn {
     border: 1px solid transparent;
     padding: 13px 26px 13px 26px;
-    background: #E67E22;
+    background: var(--light-orange-color);
     border-radius: 106px;
 }
 
@@ -532,7 +539,7 @@
 }
 
 .downloadBtn {
-    background: #E67E22;
+    background: var(--light-orange-color);
     padding: 8px 19px 8px 19px;
     border-radius: 106px;
     border: none;
@@ -540,7 +547,7 @@
 
 /*=================== rewviews us =====================*/
 .review_slider_card {
-    border: 1px solid #0000001A;
+    border: 1px solid var(--shdow-color);
     max-width: 362px;
     min-height: 100%;
     padding: 22px;
@@ -574,8 +581,8 @@
 }
 
 .reviews_slider_itm .slick-current>div {
-    box-shadow: 0px 1px 27.3px 0px #0000001A;
-    border: 1px solid #E67E221A;
+    box-shadow: 0px 1px 27.3px 0px var(--shdow-color);
+    border: 1px solid var(--border-color);
     border-radius: 10px;
 }
 
@@ -585,16 +592,16 @@
 
 /*================== contact us ===================*/
 .contact_us_bg_color {
-    background: #FFF7EF;
+    background: var(--white-color);
 }
 
 .fill_info {
-    background: #FFFFFF03;
-    border: 1px solid #0000001A;
+    background: var(--light-blue);
+    border: 1px solid var(--shdow-color);
     width: 49%;
     min-height: 46px;
     border-radius: 6px;
-    outline-color: #E67E22 !important;
+    outline-color: var(--light-orange-color) !important;
     resize: none;
 }
 
@@ -602,12 +609,12 @@
     padding: 36px 63px 36px 33px;
     background: var(--white-color);
     border-radius: 10px;
-    box-shadow: 0px 4px 23px 0px #0000000D;
+    box-shadow: 0px 4px 23px 0px var(--input-border);
 }
 
 /*==================== our client ================*/
 .compny_card {
-    border: 1px solid #0000000D;
+    border: 1px solid var(--input-border);
     max-width: 207px;
     border-radius: 10px;
     min-height: 111px;
@@ -641,7 +648,7 @@
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    background: #FFFFFF26;
+    background: var(--grey-200);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -663,7 +670,7 @@
 }
 
 .footer_underline {
-    border: 1px solid #FFFFFF80;
+    border: 1px solid var(--grey-400);
     width: 100%;
     height: 1px;
     opacity: 20%;
@@ -742,7 +749,7 @@
 .slider_arrow {
     width: 56px;
     height: 56px;
-    border: 1px solid #000000;
+    border: 1px solid var(--black-color);
     border-radius: 50%;
     transition: all 300ms linear;
 }
@@ -750,7 +757,7 @@
 /*============ in the news =====================*/
 
 .news_slider_card {
-    border: 1px solid #0000001A;
+    border: 1px solid var(--shdow-color);
     background-color: var(--white-color);
     padding: 12px 14px 20px 11px;
     border-radius: 6px;
